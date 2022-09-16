@@ -8,7 +8,7 @@ body {
   background-color: #fff;
 }
 body .nav {
-  background-color: rgb(189, 187, 187);
+  background-color: #ddd;
   font-family: "Roboto";
   height: 60px;
   font-size: 25px;
@@ -26,7 +26,7 @@ body .nav li {
 body .nav a {
   line-height: 60px;
   text-decoration: none;
-  color: white;
+  color: rgb(0, 0, 0);
   text-transform: uppercase;
   transition: color 0.3s linear;
 }
@@ -45,4 +45,48 @@ body .heroBg {
   height: 100%;
   background-color: #000;
   opacity: 0.7;
+}
+body .heroTxt {
+  position: absolute;
+  color: #fff;
+  top: 50%;
+  left: 25%;
+  font-size: 30px;
+  transform: translate(-50%, -50%);
+}
+body .heroTxt .name {
+  color: #2b59d8;
+  font-weight: bold;
+}
+body .about {
+  background-color: #fff;
+}
+body .about .container {
+  display: flex;
+  flex-direction: column;
+}
+body .about .aboutTxt {
+  margin-top: 25px;
+  width: 100%;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+body .about .bikes {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-evenly;
+}
+body .about .bikes .bikeInfo {
+  color: #000;
+  align-self: center;
+  width: 30%;
+}
+body .about .bikes .bikeImg {
+  background-image: url("../img/rower.jpg");
+  background-position: center;
+  background-size: cover;
+  border-radius: 9px;
+  border: solid black 3px;
+  width: 300px;
+  height: 300px;
 }/*# sourceMappingURL=main.css.map */
