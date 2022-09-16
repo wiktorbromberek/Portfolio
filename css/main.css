@@ -5,32 +5,44 @@
 }
 
 body {
-  background-image: linear-gradient(45deg, #8baaaa 0%, #ae8b9c 100%);
+  background-color: #fff;
 }
 body .nav {
-  background-color: #333;
+  background-color: rgb(189, 187, 187);
   font-family: "Roboto";
-  height: 80px;
-  font-size: 36px;
-  box-shadow: 3px 3px 5px 6px rgb(58, 56, 56);
-}
-body .nav .logo {
-  position: absolute;
-  left: 80px;
-  line-height: 80px;
-  font-weight: bold;
+  height: 60px;
+  font-size: 25px;
 }
 body .nav .ul {
+  height: 100%;
   display: flex;
   list-style: none;
-  justify-content: flex-end;
-  margin-right: 80px;
+  justify-content: center;
 }
 body .nav li {
-  padding-right: 40px;
+  margin-right: 40px;
+  margin-left: 40px;
 }
 body .nav a {
-  line-height: 80px;
+  line-height: 60px;
   text-decoration: none;
   color: white;
+  text-transform: uppercase;
+  transition: color 0.3s linear;
+}
+body .nav a:hover {
+  color: #2b59d8;
+}
+body .header {
+  position: relative;
+  height: 330px;
+  background-image: url("../img/kod. jpg.jpg");
+  background-position: center;
+}
+body .heroBg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  opacity: 0.7;
 }/*# sourceMappingURL=main.css.map */

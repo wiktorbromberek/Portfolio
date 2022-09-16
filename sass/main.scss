@@ -4,34 +4,43 @@
 	padding: 0;
 }
 body {
-	background-image: linear-gradient(45deg, #8baaaa 0%, #ae8b9c 100%);
+	background-color: #fff;
 	.nav {
-		background-color: #333;
+		background-color: rgb(189, 187, 187);
 		font-family: 'Roboto';
-		height: 80px;
-		font-size: 36px;
-		box-shadow: 3px 3px 5px 6px rgb(58, 56, 56);
-		.logo {
-			position: absolute;
-			left: 80px;
-			line-height: 80px;
-			font-weight: bold;
-		}
+		height: 60px;
+		font-size: 25px;
 		.ul {
+			height: 100%;
 			display: flex;
 			list-style: none;
-			justify-content: flex-end;
-			margin-right: 80px;
+			justify-content: center;
 		}
 		li {
-			padding-right: 40px;
+			margin-right: 40px;
+			margin-left: 40px;
 		}
-
 		a {
-			line-height: 80px;
-
+			line-height: 60px;
 			text-decoration: none;
 			color: white;
+			text-transform: uppercase;
+			transition: color 0.3s linear;
 		}
+		a:hover {
+			color: #2b59d8;
+		}
+	}
+	.header {
+		position: relative;
+		height: 330px;
+		background-image: url('../img/kod.\ jpg.jpg');
+		background-position: center;
+	}
+	.heroBg{
+		position: absolute;
+		width: 100%;height: 100%;
+		background-color: #000;
+		opacity: .7;
 	}
 }
