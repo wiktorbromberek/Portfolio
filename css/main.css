@@ -5,5 +5,32 @@
 }
 
 body {
+  background-image: linear-gradient(45deg, #8baaaa 0%, #ae8b9c 100%);
+}
+body .nav {
   background-color: #333;
+  font-family: "Roboto";
+  height: 80px;
+  font-size: 36px;
+  box-shadow: 3px 3px 5px 6px rgb(58, 56, 56);
+}
+body .nav .logo {
+  position: absolute;
+  left: 80px;
+  line-height: 80px;
+  font-weight: bold;
+}
+body .nav .ul {
+  display: flex;
+  list-style: none;
+  justify-content: flex-end;
+  margin-right: 80px;
+}
+body .nav li {
+  padding-right: 40px;
+}
+body .nav a {
+  line-height: 80px;
+  text-decoration: none;
+  color: white;
 }/*# sourceMappingURL=main.css.map */
